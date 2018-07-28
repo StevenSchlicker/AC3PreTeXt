@@ -2,8 +2,7 @@
 <preface>
   <title>How to Use this Text</title>
     <p>
-      Because the text is free, any professor or student may use the electronic version of the text for no charge. For reading on laptops or mobile devices, the best electronic version to use is the .html one at <url href="http://gvsu.edu/s/0uo">gvsu.edu/s/0uo</url>,
-      but you may also download a full .pdf copy of the text from <url href="http://gvsu.edu/s/0vM">gvsu.edu/s/0vM</url>, where there is also a link to a print-on-demand option for purchasing a bound, softcover version for under <dollar />25. Other ancillary materials, such as <webwork /> .def files, an activities-only workbook, and sample computer laboratory activities are available upon direct request to the author via email at <email>schlicks@gvsu.edu</email> . Furthermore, because the text is open-source, any instructor may acquire the full set of source files, which are <url href="https://github.com/active-calculus/active-calculus-single-mbx">available on GitHub</url>.
+      Because the text is free, any professor or student may use the electronic version of the text for no charge. For reading on laptops or mobile devices, the best electronic version to use is <url href="https://activecalculus.org/multi/"><c>the .html version of the text</c></url>, but you can find links to a pdf and hard copy of the text at <url href="https://activecalculus.org/"><c>https://activecalculus.org/</c></url>. Furthermore, because the text is open-source, any instructor may acquire the full set of source files, which are <url href="https://github.com/StevenSchlicker/AC3PreTeXt/tree/master/src"> available on GitHub</url>.
     </p>
 
     <p>

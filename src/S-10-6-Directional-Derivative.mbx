@@ -142,9 +142,10 @@
 
     <p>
       In particular, by the Chain Rule, it follows that
-      <me>
-        D_{\vu}f(x_0,y_0) = f_x(x_0,y_0)\frac{dx}{dt}\biggm|_{(x_0,y_0)} + f_y(x_0,y_0)\frac{dy}{dt}\biggm|_{(x_0,y_0)} = f_x(x_0,y_0)u_1 + f_y(x_0,y_0)u_2.
-      </me>
+      <md>
+        <mrow>D_{\vu}f(x_0,y_0) \amp = f_x(x_0,y_0)\frac{dx}{dt}\biggm|_{(x_0,y_0)} + f_y(x_0,y_0)\frac{dy}{dt}\biggm|_{(x_0,y_0)} </mrow>
+        <mrow> \amp = f_x(x_0,y_0)u_1 + f_y(x_0,y_0)u_2. </mrow>
+      </md>
     </p>
 
     <p>
