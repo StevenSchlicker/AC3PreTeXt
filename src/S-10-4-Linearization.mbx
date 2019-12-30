@@ -35,12 +35,6 @@
 
           <li>
             <p>
-              What does it mean to say that a multivariable function is <em>differentiable</em>?
-            </p>
-          </li>
-
-          <li>
-            <p>
               What is the differential of a multivariable function of two
                   variables and what are its uses?
             </p>
@@ -207,18 +201,18 @@
     </p>
 
     <p>
-      It would take us too far afield to provide a rigorous dicussion of differentiability of functions of more than one variable (see <xref ref="Ez_10_4_4">Exercise</xref>) for a little more detail), so we will be content to just state conditions that ensure local linearity. 
+      It would take us too far afield to provide a rigorous dicussion of differentiability of functions of more than one variable (see <xref ref="Ez_10_4_4">Exercise</xref>) for a little more detail, so we will be content to define stronger, but more easily verified, conditions that ensure local linearity. 
     </p>
 
     <assemblage xml:id="Differentiablity">
       <title>Differentiablity</title>
     <p>
-      If <m>f</m> is a function of the independent variables <m>x</m> and <m>y</m> and both <m>f_x</m> and <m>f_y</m> exist and are continuous in an open disk containing the point <m>(x_0,y_0)</m>, then <m>f</m> is <em>differentiable</em><idx><h>function</h><h>differentiable</h></idx> at <m>(x_0,y_0)</m>.
+      If <m>f</m> is a function of the independent variables <m>x</m> and <m>y</m> and both <m>f_x</m> and <m>f_y</m> exist and are continuous in an open disk containing the point <m>(x_0,y_0)</m>, then <m>f</m> is <em>continuously differentiable</em><idx><h>function</h><h>continuously differentiable</h></idx> at <m>(x_0,y_0)</m>.
     </p>
     </assemblage>
 
     <p>
-      As a consequence, whenever a function <m>z = f(x,y)</m> is differentiable at a point <m>(x_0,y_0)</m>, it follows that the function has a tangent plane at <m>(x_0,y_0)</m>. Viewed up close, the tangent plane and the function are then virtually indistinguishable. In addition, as in <xref ref="PA_10_4">Preview Activity</xref>, we find the following general formula for the tangent plane.
+      As a consequence, whenever a function <m>z = f(x,y)</m> is continuously differentiable at a point <m>(x_0,y_0)</m>, it follows that the function has a tangent plane at <m>(x_0,y_0)</m>. Viewed up close, the tangent plane and the function are then virtually indistinguishable. (We won't formally define differentiability of multivariable functions here, and for our purposes continuous differentiability is the only condition we will ever need to use. It is important to note that continuous differentiability is a stronger condition than differentiability. All of the results we encounter will apply to differentiable functions, and so also apply to continuously differentiable functions.)  In addition, as in <xref ref="PA_10_4">Preview Activity</xref>, we find the following general formula for the tangent plane. 
     </p>
 
     <assemblage xml:id="Tangent-plane">
@@ -327,7 +321,7 @@
               <xref ref="T_10_4_wind_chill">Table</xref> provides a collection of values of the wind chill <m>w(v,T)</m>, in degrees Fahrenheit, as a function of  wind speed, in miles per hour, and temperature, also in degrees Fahrenheit.
 
               <table xml:id="T_10_4_wind_chill" >
-                <caption>Wind chill as a function of wind speed and temperature.</caption>
+                <title>Wind chill as a function of wind speed and temperature.</title>
                 <tabular halign="center" bottom="minor" top="minor">
                   <row bottom="medium">
                     <cell><m>v \backslash T</m></cell>
@@ -465,7 +459,7 @@
           <li>
             <p>
               <xref ref="F_10_4_activity_contour">Figure</xref> gives a contour
-                plot of a differentiable function <m>f</m>.
+                plot of a continuously differentiable function <m>f</m>.
 
               <figure xml:id="F_10_4_activity_contour" >
                 <caption>A contour plot of <m>f(x,y)</m>.</caption>
@@ -760,7 +754,7 @@
           <ol label="a.">
             <li>
               <p>
-                Find the equation of the tangent plane to <m>f</m> at the point <m>(1,1)</m>. 
+                Find the equation of the tangent plane to <m>f</m> at the point <m>(1,2)</m>. 
               </p>
             </li>
 
@@ -868,7 +862,7 @@
               <li>
                 <p>
                   Find the linearization <m>L(x,y)</m> for the function <m>f</m> defined by <m>f(x,y) = \cos(x)(2e^{2y}+e^{-2y})</m>
-                  at the point <m>(x_0,y_0) = (0,0)</m>.  Hence use the linearization to estimate
+                  at the point <m>(x_0,y_0) = (0,0)</m>.  Use the linearization to estimate
                   the value of <m>f(0.1, 0.2)</m>.  Compare your estimate to the actual value of <m>f(0.1, 0.2)</m>.
                 </p>
               </li>
@@ -878,7 +872,7 @@
                   The Heat Index, <m>I</m>, (measured in apparent degrees F) is a function of the actual temperature <m>T</m> outside (in degrees F) and the relative humidity <m>H</m> (measured as a percentage).  A portion of the table which gives values for this function, <m>I=I(T,H)</m>, is provided in <xref ref="T_10_4_heat_index">Table</xref>.
 
               <table xml:id="T_10_4_heat_index" >
-                <caption>Heat index.</caption>
+                <title>Heat index.</title>
                 <tabular halign="center" bottom="minor" top="minor">
                     <row bottom="medium">
                       <cell><em>T</em> <m>\downarrow \backslash</m> <em>H</em> <m>\rightarrow</m></cell>
@@ -962,7 +956,7 @@
                     <m>R_3=50\Omega</m>.  Find the total resistance <m>R</m>.
 
                     If you know each of <m>R_1</m>, <m>R_2</m>, and <m>R_3</m> with a possible error of
-                    <m>0.5</m><percent />, estimate the maximum error in your calculation of <m>R</m>.
+                    <m>0.5</m>%, estimate the maximum error in your calculation of <m>R</m>.
                 </p>
               </li>
             </ol>
@@ -974,46 +968,51 @@
       <exercise xml:id="Ez_10_4_4">
         <statement>
           <p>
-            In this exercise we explore the concept of differetiability of a function of two variables in more detail. We will consider the function <m>f</m> defined by <m>f(x,y) = |x|+|y|</m>. 
+            In this section we argued that if <m>f = f(x,y)</m> is a function of two variables and if <m>f_x</m> and <m>f_y</m> both exist and are continuous in an open disk containing the point <m>(x_0,y_0)</m>, then <m>f</m> is differentiable at <m>(x_0,y_0)</m>. This condition ensures that <m>f</m> is differentiable at <m>(x_0,y_0)</m>, but it does not define what it means for <m>f</m> to be differentiable at <m>(x_0,y_0)</m>. In this exercise we explore the definition of differentiability of a function of two variables in more detail. Throughout, let <m>g</m> be the function defined by <m>g(x,y)=  \sqrt{|xy|}</m>.  
             <ol label="a.">
               <li>
                 <p>
-                  Use appropriate technology to plot the graph of <m>f</m> on the domain <m>[-1,1] \times [-1,1]</m>. Based on the graph, do you think that <m>f</m> is locally linear at <m>(0,0)</m>? Explain your reasoning. 
+                  Use appropriate technology to plot the graph of <m>g</m> on the domain <m>[-1,1] \times [-1,1]</m>. Explain why <m>g</m> is not locally linear at <m>(0,0)</m>. 
                 </p>
               </li>
 
               <li>
                 <p>
-                  Show that both <m>f_x(0,0)</m> and <m>f_y(0,0)</m> exist. If <m>f</m> is locally linear at <m>(0,0)</m>, what must be the equation of the tangent plane <m>L</m> to <m>f</m> at <m>(0,0)</m>?
+                  Show that both <m>g_x(0,0)</m> and <m>g_y(0,0)</m> exist. If <m>g</m> is locally linear at <m>(0,0)</m>, what must be the equation of the tangent plane <m>L</m> to <m>g</m> at <m>(0,0)</m>?
                 </p>
               </li>
 
               <li>
                 <p>
-                  In general, if <m>g = g(x,y)</m> is a function of two variables, and <m>g</m> is differentiable at a point <m>(x_0,y_0)</m>, let 
-                  <me> L(x,y) = g(x_0,y_0) + g_x(x_0,y_0)(x-x_0) + g_y(x_0,y_0)(y-y_0)
-                  </me>
-                  be the linearization of <m>g</m> at <m>(x_0,y_0)</m>. The error in approximating <m>g(x,y)</m> by <m>L(x,y)</m> for points near <m>(x_0,y_0)</m> is given by 
-                  <me>
-                    E(x,y) = g(x,y) - L(x,y).
-                  </me>
-                  It might be reasonable to think that if the error term goes to <m>0</m> as <m>(x,y)</m> approaches <m>(x_0,y_0)</m>, then <m>g</m> is locally linear at <m>(x_0,y_0)</m>. Assume that <m>f(x,y) = |x| + |y|</m> is differentiable at <m>(0,0)</m> and use what must be its linearization at the origin that you found in (b) and demonstrate that the limit of <m>E(x,y)</m> for <m>f</m> is <m>0</m> at <m>(0,0)</m>. This shows that just because an error term goes to <m>0</m> as <m>(x,y)</m> approaches <m>(x_0,y_0)</m>, we cannot conclude that a function is locally linear at <m>(x_0,y_0)</m>. 
+                  Recall that if a function <m>f = f(x)</m> of a single variable is differentiable at <m>x=x_0</m>, then 
+                  <me>f'(x_0) = \lim_{h \to 0} \frac{f(x_0+h)-f(x_0)}{h}</me>
+                  exists. We saw in single variable calculus that the existence of <m>f'(x_0)</m> means that the graph of <m>f</m> is locally linear at <m>x=x_0</m>. In other words, the graph of <m>f</m> looks like its linearization <m>L(x) = f(x_0)+f'(x_0)(x-x_0)</m> for <m>x</m> close to <m>x_0</m>. That is, the values of <m>f(x)</m> can be closely approximated by <m>L(x)</m> as long as <m>x</m> is close to <m>x_0</m>. We can measure how good the approximation of <m>L(x)</m> is to <m>f(x)</m> with the error function 
+                  <me>E(x) = L(x) - f(x) = f(x_0)+f'(x_0)(x-x_0) - f(x).</me>
+                  As <m>x</m> approaches <m>x_0</m>, <m>E(x)</m> approaches <m>f(x_0)+f'(x_0)(0) - f(x_0) = 0</m>, and so <m>L(x)</m> provides increasingly better approximations to <m>f(x)</m> as <m>x</m> gets closer to <m>x_0</m>. 
+
+                  Show that, even though <m>g(x,y) = \sqrt{|xy|}</m> is not locally linear at <m>(0,0)</m>, its error term
+                  <me>E(x,y) = L(x,y) - g(x,y)</me>
+                  at <m>(0,0)</m> has a limit of <m>0</m> as <m>(x,y)</m> approaches <m>(0,0)</m>. (Use the linearization you found in part (b).) This shows that just because an error term goes to <m>0</m> as <m>(x,y)</m> approaches <m>(x_0,y_0)</m>, we cannot conclude that a function is locally linear at <m>(x_0,y_0)</m>.
                 </p>
               </li>
 
               <li>
                 <p>
-                  To help understand the condition we need for differentiability (local linearity) at a point, let us recall the absolute value function <m>a</m> of a single variable, that is <m>a(x) = |x|</m>. The reason that <m>a</m> is not differentiable at <m>0</m> is that to the right of <m>0</m> <m>a</m>  is the linear function <m>y=x</m> and to the left of <m>0</m> <m>a</m> is the linear function <m>y=-x</m>. In other words, the slope of <m>a</m> is different on the two sides of <m>0</m>. The slope is the change in <m>a</m> divided by the change in <m>x</m>, or how far the values of <m>a</m> are from the origin in relation to how far the values of <m>x</m> are from the origin. This is a <em>relative error</em> instead of an actual error. We can apply the same idea for functions of two variables and measure how well the error term approximates a function relative to how far the point in question is from the base point. 
-                </p>
+                  As the previous part illustrates, having the error term go to <m>0</m> does not ensure that a function of two variables is locally linear. Instead, we need a notation of a relative error. To see how this works, let us return to the single variable case for a moment and consider <m>f = f(x)</m> as a function of one variable. If we let <m>x = x_0+h</m>, where <m>|h|</m> is the distance from <m>x</m> to <m>x_0</m>, then the relative error in approximating <m>f(x_0+h)</m> with <m>L(x_0+h)</m> is  
+                  <me>\frac{E(x_0+h)}{h}.</me>
+                  Show that, for a function <m>f = f(x)</m> of a single variable, the limit of the relative error is <m>0</m> as <m>h</m> approaches <m>0</m>.  
 
+                </p>
+              </li>
+
+              <li>
                 <p>
-                  For a differentiable function <m>g</m> of two variables <m>x</m> and <m>y</m>, we define the <em>relative error</em> in approximating <m>g(x,y)</m> with <m>L(x,y)</m> as 
-                  <me>
-                    \frac{E(x_0+h,y_0+k)}{\sqrt{h^2+k^2}}, 
-                  </me>
-                  where <m>h=x-x_0</m> and <m>k = y-y_0</m>. Notice that <m>\sqrt{h^2+k^2}</m> measures how far the point <m>(x,y)</m> is from <m>(x_0,y_0)</m>. It is this relative error that we want to go to <m>0</m> in order for our function to be differentiable at <m>(x_0,y_0)</m>. We can use this idea to more formally define differentiability of a function of two variables.
+                  Even though the error term for a function of two variables might have a limit of <m>0</m> at a point, our example shows that the function may not be locally linear at that point. So we use the concept of relative error to define differentiability of a function of two variables. When we consider differentiability of a function <m>f = f(x,y)</m> at a point <m>(x_0,y_0)</m>, then if <m>x = x_0+h</m> and <m>y = y_0+k</m>, the distance from <m>(x,y)</m> to <m>(x_0,y_0)</m> is <m>\sqrt{h^2+k^2}</m>.
                 </p>
-
+              
+              <p>
+              </p>
+              
               <definition xml:id="Def_10_4_differentiability">
                 <statement>
                   <p>
@@ -1025,20 +1024,43 @@
                   </p>
                 </statement>
               </definition>
-                
-
-                <p> 
-                  Show that for <m>f(x,y) = |x| +|y|</m>, the relative error at <m>(x,y) = (0,0)</m> does not have a limit at <m>(h,k) = (0,0)</m>, using <m>L(x,y)</m> as in part (b). So in this case the relative error does show that <m>f</m> is not differentiable at the origin. As we have seen, it is often difficult to verify a limit of a function at a point, so this definition of differentibility can be hard to use. 
-                </p>
-              </li>
-
-              <li>
+      
                 <p>
-                  We conclude this exercise by showing that the linear function in <xref ref="Def_10_4_differentiability">Definition</xref> is in fact our tangent plane. So assume that a function <m>g</m> is differentiable at a point <m>(x_0,y_0)</m> and that <m>L = L(x,y) = f(x_0,y_0) + m(x-x_0) + n(y-y_0)</m> satisfies the conditions of <xref ref="Def_10_4_differentiability">Definition</xref>. Show that <m>m = g_x(x_0,y_0)</m> and <m>n = g_y(x_0,y_0)</m>. (Hint: Calculate the limits of the relative errors when <m>h = 0</m> and <m>k = 0</m>.)
+                  A function <m>f</m> is differentiable if it is differentiable at every point in its domain. The function <m>L</m> in the definition is the linearization of <m>f</m> at <m>(x_0,y_0)</m>.
+
+                  Verify that <m>g(x,y) = \sqrt{|xy|}</m> is not differentiable at <m>(0,0)</m> by showing that the relative error at <m>(0,0)</m> does not have a limit at <m>(0,0)</m>. Conclude that the existence of partial derivatives at a point is not enough to ensure differentiability at that point. (Hint: Consider the limit along different paths.) 
                 </p>
               </li>
-
             </ol>
+          </p>
+        </statement>
+        
+      </exercise>
+
+      <exercise xml:id="Ez_10_4_5">
+        <statement>
+          <p>
+             
+              Suppose that a function <m>f = f(x,y)</m> is differentiable at a point <m>(x_0,y_0)</m>. Let <m>L = L(x,y) = f(x_0,y_0) + m(x-x_0) + n(y-y_0)</m> as in the conditions of <xref ref="Def_10_4_differentiability">Definition</xref>. Show that <m>m = f_x(x_0,y_0)</m> and <m>n = f_y(x_0,y_0)</m>. (Hint: Calculate the limits of the relative errors when <m>h = 0</m> and <m>k = 0</m>.)
+
+          </p>
+        </statement>
+        
+      </exercise>
+
+      <exercise xml:id="Ez_10_4_6">
+        <statement>
+          <p>
+            We know that if a function of a single variable is differentiable at a point, then that function is also continuous at that point. In this exercise we determine that the same property holds for functions of two variables. 
+
+            A function <m>f</m> of the two variables <m>x</m> and <m>y</m> is continuous at a point <m>(x_0,y_0)</m> in its domain if 
+            <me>\lim_{(x,y) \to (x_0,y_0)} f(x,y) = f(x_0,y_0)</me>
+            or (letting <m>x=x_0+h</m> and <m>y = y_0 + k</m>, 
+            <me>\lim_{(h,k) \to (0,0)} f(x_0+h,y+k) = f(x_0,y_0).</me>
+
+            Show that if <m>f</m> is differentiable at <m>(x_0,y_0)</m>, then <m>f</m> is continuous at <m>(x_0,y_0)</m>. (Hint: Multiply both sides of the equality that comes from differentiability by <m>\lim_{(h,k) \to (0,0)} \sqrt{h^2+k^2}</m>.) 
+
+
           </p>
         </statement>
         

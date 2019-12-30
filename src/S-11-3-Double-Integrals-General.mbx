@@ -350,13 +350,13 @@
 
     <activity xml:id="A_11_3_2">
       <p>
-        Consider the iterated integral <m>\int_{x=3}^{x=5} \int_{y=-x}^{y=x^2} (4x+10y) \, dy \, dx</m>.
+        Consider the iterated integral <m>\int_{x=0}^{x=1} \int_{y=x}^{y=\sqrt{x}} (4x+10y) \, dy \, dx</m>.
         <ol label="a.">
           <li>
             <p>
               Sketch the region of integration, <m>D</m>, for which
               <me>
-                \iint_D (4x + 10y) \, dA = \int_{x=3}^{x=5} \int_{y=-x}^{y=x^2} (4x+10y) \, dy \, dx.
+                \iint_D (4x + 10y) \, dA = \int_{x=0}^{x=1} \int_{y=x}^{y=\sqrt{x}} (4x+10y) \, dy \, dx.
               </me>
             </p>
           </li>

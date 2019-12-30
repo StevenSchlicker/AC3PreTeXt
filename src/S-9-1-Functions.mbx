@@ -51,12 +51,12 @@
       single variable. We define a function of one variable as a rule that
       assigns exactly one output to each input. We analyze these functions
       by looking at their graphs, calculating limits, differentiating,
-      integrating, and more. Functions of several variables will be the main focus of Chapters 10 and 11, where we will analyze these functions by looking at their graphs, calculating limits, differentiating, integrating, and more. We will see that many of the ideas from single variable calculus translate well to functions of several variables, but we will have to make some adjustments as well. In this chapter we introduce functions of several variables and then dicusss some of the tools (vectors and vector-valued functions) that will help us understand and analyze functions of several variables. 
+      integrating, and more. Functions of several variables will be the main focus of Chapters 10 and 11, where we will analyze these functions by looking at their graphs, calculating limits, differentiating, integrating, and more. We will see that many of the ideas from single variable calculus translate well to functions of several variables, but we will have to make some adjustments as well. In this chapter we introduce functions of several variables and then discuss some of the tools (vectors and vector-valued functions) that will help us understand and analyze functions of several variables. 
     </p>
 
     <exploration xml:id="PA-9-1">
       <p>
-        Suppose you invest money in an account that pays 5<percent /> interest compounded continuously. If you invest <m>P</m> dollars in the account, the amount <m>A</m> of money in the account after <m>t</m> years is given by 
+        Suppose you invest money in an account that pays 5% interest compounded continuously. If you invest <m>P</m> dollars in the account, the amount <m>A</m> of money in the account after <m>t</m> years is given by 
         <me>
           A = Pe^{0.05t}.
         </me>
@@ -85,7 +85,7 @@
               Now consider only the situation where the amount invested is fixed at 1000 dollars. Calculate the amount of money in the account after <m>t</m> years as indicated in <xref ref="T-9-1-Fixed-Investment">Table</xref>. Round payments to the nearest penny.
 
               <table xml:id="T-9-1-Fixed-Investment" >
-                <caption>Amount of money in an account with an initial investment of 1000 dollars.</caption>
+                <title>Amount of money in an account with an initial investment of 1000 dollars.</title>
                 <tabular bottom="minor" top="minor">
                   <row bottom="medium">
                     <cell>Duration (in years)</cell>
@@ -116,15 +116,15 @@
               Now consider the situation where we want to know the amount of money in the account after 10 years given various initial investments. Calculate the amount of money in the account as indicated in <xref ref="T-9-1-Payments-years">Table</xref>. Round payments to the nearest penny.
 
               <table xml:id="T-9-1-Payments-years" >
-                <caption>Amount of money in an account after 10 years.</caption>
+                <title>Amount of money in an account after 10 years.</title>
                 <tabular bottom="minor" top="minor">
                   <row bottom="medium">
-                    <cell>Interest rate</cell>
-                    <cell><nbsp /><nbsp /> 0.03 <nbsp /><nbsp /></cell>
-                    <cell><nbsp /><nbsp />0.05 <nbsp /><nbsp /></cell>
-                    <cell><nbsp /><nbsp />0.07 <nbsp /><nbsp /></cell>
-                    <cell><nbsp /><nbsp />0.09 <nbsp /><nbsp /></cell>
-                    <cell><nbsp /><nbsp />0.11 <nbsp /><nbsp /></cell>
+                    <cell>Initial investment (dollars)</cell>
+                    <cell><nbsp /><nbsp /> 500 <nbsp /><nbsp /></cell>
+                    <cell><nbsp /><nbsp />1000 <nbsp /><nbsp /></cell>
+                    <cell><nbsp /><nbsp />5000 <nbsp /><nbsp /></cell>
+                    <cell><nbsp /><nbsp />7500 <nbsp /><nbsp /></cell>
+                    <cell><nbsp /><nbsp />10000 <nbsp /><nbsp /></cell>
                   </row>
                   <row>
                     <cell>Amount (dollars)</cell>
@@ -142,7 +142,7 @@
 
           <li>
             <p>
-              Describe as best you can the combinations of initial investments and time that result in an account containing <dollar />10,000.
+              Describe as best you can the combinations of initial investments and time that result in an account containing $10,000.
             </p>
           </li>
         </ol>
@@ -253,7 +253,7 @@
     </p>
 
      <table xml:id="T-9-1-range" >
-      <caption>Values of <m>f(x,y) = \frac{x^2 \sin(2y)}{g}</m>.</caption>
+      <title>Values of <m>f(x,y) = \frac{x^2 \sin(2y)}{g}</m>.</title>
       <tabular halign="center" bottom="minor" top="minor">
         <row bottom="medium">
           <cell><m>x\backslash y</m></cell>
@@ -412,8 +412,8 @@
     <figure xml:id="F-9-1-left-right-hand" >
       <caption>Left: A left hand system. Right: A right hand system</caption>
       <sidebyside widths="50% 50%">
-        <image source="images/fig_9_1_right_hand" />
         <image source="images/fig_9_1_left_hand" />
+        <image source="images/fig_9_1_right_hand" />
         </sidebyside>
     </figure>
     
@@ -488,7 +488,7 @@
       a pair of the coordinate axes. When we make the constant 0, we get the
       <em>coordinate planes</em><idx><h>coordinate planes</h></idx>. The <m>xy</m>-plane
       satisfies <m>z=0</m>, the <m>xz</m>-plane satisfies <m>y=0</m>, and the <m>yz</m>-plane
-      satisfies <m>z=0</m> (see <xref ref="F-9-1-coordinate-planes">Figure</xref>).
+      satisfies <m>x=0</m> (see <xref ref="F-9-1-coordinate-planes">Figure</xref>).
     </p>
 
     <figure xml:id="F-9-1-coordinate-planes" >
@@ -721,7 +721,7 @@
 
     <figure xml:id="F-9-1-porcupine" >
       <caption>Contour map of the Porcupine Mountains.</caption>
-      <image width="120%" source="images/9_1_porcupine_crop" />
+      <image width="100%" source="images/9_1_porcupine_crop" />
     </figure>
 
     <activity xml:id="A-9-1-8">
@@ -1146,7 +1146,7 @@
         the loan, plus interest, is paid. The monthly payment that the
         borrower has to make depends on the amount <m>P</m> of money borrowed
         (called the principal), the duration <m>t</m> of the loan in years, and
-        the interest rate <m>r</m>. For example, if we borrow <dollar />18,000 to buy a car, the monthly payment <m>M</m> that we need to make to pay off the loan is given by the formula
+        the interest rate <m>r</m>. For example, if we borrow $18,000 to buy a car, the monthly payment <m>M</m> that we need to make to pay off the loan is given by the formula
         <me>
           M(r,t) = \frac{1500r}{1-\frac{1}{\left(1+\frac{r}{12}\right)^{12t}}}.
         </me>
@@ -1154,19 +1154,19 @@
         <ol label="a.">
           <li>
             <p>
-              Find the monthly payments on this loan if the interest rate is 6<percent /> and the duration of the loan is 5 years.
+              Find the monthly payments on this loan if the interest rate is 6% and the duration of the loan is 5 years.
             </p>
           </li>
 
           <li>
             <p>
-              Create a table of values that illustrates the trace of <m>M</m> with <m>r</m> fixed at 5<percent />. Use yearly values of <m>t</m> from 2 to 6. Round payments to the nearest penny. Explain in detail in words what this trace tells us about <m>M</m>.
+              Create a table of values that illustrates the trace of <m>M</m> with <m>r</m> fixed at 5%. Use yearly values of <m>t</m> from 2 to 6. Round payments to the nearest penny. Explain in detail in words what this trace tells us about <m>M</m>.
             </p>
           </li>
 
           <li>
             <p>
-              Create a table of values that illustrates the trace of <m>M</m> with <m>t</m> fixed at 3 years. Use rates from 3 to 11 <percent/> in increments of 2<percent/>. Round payments to the nearest penny. Explain in detail what this trace tells us about <m>M</m>.
+              Create a table of values that illustrates the trace of <m>M</m> with <m>t</m> fixed at 3 years. Use rates from 3% to 11% in increments of 2%. Round payments to the nearest penny. Explain in detail what this trace tells us about <m>M</m>.
 
               
             </p>
@@ -1175,7 +1175,7 @@
           
           <li>
             <p>
-            Consider the combinations of interest rates and durations of loans that result in a monthly payment of <dollar />200. Solve the equation <m>M(r,t) = 200</m> for <m>t</m> to write the duration of the loan in terms of the interest rate. Graph this level curve and explain as best you can the relationship between <m>t</m> and <m>r</m>. 
+            Consider the combinations of interest rates and durations of loans that result in a monthly payment of $200. Solve the equation <m>M(r,t) = 200</m> for <m>t</m> to write the duration of the loan in terms of the interest rate. Graph this level curve and explain as best you can the relationship between <m>t</m> and <m>r</m>. 
             </p>
           </li>
         </ol>

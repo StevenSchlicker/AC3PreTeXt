@@ -365,7 +365,7 @@
       </p>
 
       <table xml:id="T_10_3_wind_chill" >
-        <caption>Wind chill as a function of wind speed and temperature.</caption>
+        <title>Wind chill as a function of wind speed and temperature.</title>
         <tabular halign="center" bottom="minor" top="minor">
           <row bottom="medium">
             <cell><m>v \backslash T</m></cell>
@@ -723,7 +723,7 @@
           </p>
 
         <table xml:id="T_10_3_heat_index" >
-        <caption>Heat index.</caption>
+        <title>Heat index.</title>
             <tabular halign="center" bottom="minor" top="minor">
             <row bottom="medium">
               <cell><em>T</em> <m>\downarrow \backslash</m> <em>H</em> <m>\rightarrow</m></cell>

@@ -47,7 +47,7 @@
 
     <introduction>
     <p>
-      Quantities like length, speed, area, and mass are all measured by numbers (called <em>scalars</em>). Other quantities, like velocity, force, and displacement, have two attributes: magnitude and direction. These quantities are represented by <em>vectors</em> and are the study of this section. For example, we will use vectors to calculate work done by a constant force, calculuate torque, determine direction vectors for lines and normal vectors for planes, define curvature, and determine the direction of greatest increase on a surface. For most of these applications, we will interested in using vectors to measure direction and/or speed.  Vectors will be a major tool for us in determining the behavior of functions of several veriables. 
+      Quantities like length, speed, area, and mass are all measured by numbers (called <em>scalars</em>). Other quantities, like velocity, force, and displacement, have two attributes: magnitude and direction. These quantities are represented by <em>vectors</em> and are the study of this section. For example, we will use vectors to calculate work done by a constant force, calculate torque, determine direction vectors for lines and normal vectors for planes, define curvature, and determine the direction of greatest increase on a surface. For most of these applications, we will interested in using vectors to measure direction and/or speed.  Vectors will be a major tool for us in determining the behavior of functions of several variables. 
     </p>
 
     <p>
@@ -918,7 +918,7 @@
           </sidebyside>
 
           <p>
-            As an example, suppose a painting weighing 50 pounds is hung from a wire attached to a hook which is not perfectly centered on the picture, as illustrated in <xref ref="F-9-1-forces">Figure</xref>. We need to know how much tension will be on the wire to know what kind of wire to use to hang the picture. Assume the hook is on the picture frame at point <m>O</m>. Let <m>\vu</m> be the vector emanating from point <m>O</m> to the left and <m>\vv</m> the vector emanating from point <m>C</m> to the right. Assume <m>\vu</m> makes a <m>30^{\circ}</m> angle with the horizontal at point <m>O</m> and <m>\vv</m> makes a <m>45^{\circ}</m> angle with the horizontal at point <m>O</m>. Our goal is to determine the vectors <m>\vu</m> and <m>\vv</m>. 
+            As an example, suppose a painting weighing 50 pounds is to be hung from wires attached to the frame as illustrated in <xref ref="F-9-1-forces">Figure</xref>. We need to know how much tension will be on the wires to know what kind of wire to use to hang the picture. Assume the wires are attached to the frame at point <m>O</m>. Let <m>\vu</m> be the vector emanating from point <m>O</m> to the left and <m>\vv</m> the vector emanating from point <m>O</m> to the right. Assume <m>\vu</m> makes a <m>60^{\circ}</m> angle with the horizontal at point <m>O</m> and <m>\vv</m> makes a <m>45^{\circ}</m> angle with the horizontal at point <m>O</m>. Our goal is to determine the vectors <m>\vu</m> and <m>\vv</m> in order to calculate their magnitudes. 
             <ol label="a.">
               <li>
                 <p>
@@ -934,7 +934,7 @@
 
               <li>
                 <p>
-                  The picture will hang in equilibrium when the force acting to hold it up is equal to the force acting to pull it down. Equate these forces to find the components of the vectors <m>\vu</m> and <m>\vv</m>.
+                  The picture will hang in equilibrium when the force acting to hold it up is equal in magnitude and opposite in direction to the force acting to pull it down. Equate these forces to find the components of the vectors <m>\vu</m> and <m>\vv</m>.
                 </p>
               </li>
 

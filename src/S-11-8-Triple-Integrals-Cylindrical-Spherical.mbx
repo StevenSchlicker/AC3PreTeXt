@@ -47,7 +47,7 @@
 
     <introduction>
     <p>
-      We have encountered two different coordinate systems in <m>\R^2</m> <mdash /> the rectangular and polar coordinates systems <mdash /> and seen how in certain situations, polar coordinates form a convenient alternative. In a similar way, there there turn out to be two additional natural coordinate systems in <m>\R^3</m>. Given that we are already familiar with the Cartesian coordinate system for <m>\R^3</m>, we next investigate the cylindrical and spherical coordinate systems (each of which builds upon polar coordinates in <m>\R^2</m>). In what follows, we will see how to convert among the different coordinate systems, how to evaluate triple integrals using them, and some situations in which these other coordinate systems prove advantageous.
+      We have encountered two different coordinate systems in <m>\R^2</m> <mdash /> the rectangular and polar coordinates systems <mdash /> and seen how in certain situations, polar coordinates form a convenient alternative. In a similar way, there are two additional natural coordinate systems in <m>\R^3</m>. Given that we are already familiar with the Cartesian coordinate system for <m>\R^3</m>, we next investigate the cylindrical and spherical coordinate systems (each of which builds upon polar coordinates in <m>\R^2</m>). In what follows, we will see how to convert among the different coordinate systems, how to evaluate triple integrals using them, and some situations in which these other coordinate systems prove advantageous.
     </p>
 
     <exploration xml:id="PA_11_8">
@@ -478,7 +478,7 @@
     </activity>
 
     <p>
-      Letting <m>\Delta \rho</m>, <m>\Delta \phi</m> and <m>\Delta \theta</m> go to 0, it follows from the final result in <xref ref="A_11_8_8">Activity</xref> that <m>dV = \rho^2 \, \sin(\phi) \, d\rho \, d\phi \, d\theta</m> in spherical coordinates, and thus allows us to state the following general rule.
+      Letting <m>\Delta \rho</m>, <m>\Delta \theta</m>, and <m>\Delta \phi</m> go to 0, it follows from the final result in <xref ref="A_11_8_8">Activity</xref> that <m>dV = \rho^2 \, \sin(\phi) \, d\rho \, d\theta \, d\phi </m> in spherical coordinates, and thus allows us to state the following general rule.
     </p>
 
     <assemblage xml:id="Triple-integral-spherical">
@@ -486,7 +486,7 @@
     <p>
       Given a continuous function <m>f = f(x,y,z)</m> over a region <m>S</m> in <m>\R^3</m>, the triple integral <m>\iiint_S f(x,y,z) \, dV</m> is converted to the integral 
       <me>
-        \iiint_S f(\rho\sin(\phi)\cos(\theta), \rho \sin(\phi) \sin(\theta), \rho \cos(\phi)) \, \rho^2 \sin(\phi) \, d\rho \, d\phi \, d\theta
+        \iiint_S f(\rho\sin(\phi)\cos(\theta), \rho \sin(\phi) \sin(\theta), \rho \cos(\phi)) \, \rho^2 \sin(\phi) \, d\rho \, d\theta \, d\phi 
       </me>
       in spherical coordinates. 
     </p>
@@ -499,7 +499,7 @@
     
 
     <p>
-      Finally, in order to actually evaluate an iterated integral in spherical coordinates, we must of course determine the limits of integration in <m>\theta</m>, <m>\phi</m>, and <m>\rho</m>. The process is similar to our earlier work in the other two coordinate systems.
+      Finally, in order to actually evaluate an iterated integral in spherical coordinates, we must of course determine the limits of integration in <m>\phi</m>, <m>\theta</m>, and <m>\rho</m>. The process is similar to our earlier work in the other two coordinate systems.
     </p>
 
     <activity xml:id="A_11_8_10">
@@ -558,7 +558,7 @@
 
       <li>
         <p>
-          The spherical coordinates of a point <m>P</m> in 3-space are <m>\rho</m> (rho), <m>\phi</m> (phi), and <m>\theta</m>, where <m>\rho</m> is the distance from <m>P</m> to the origin, <m>\phi</m> is the angle between the positive <m>z</m> axis and the vector from the origin to <m>P</m>, and <m>\theta</m> is the angle that the projection of <m>P</m> onto the <m>xy</m>-plane makes with the positive <m>x</m>-axis.  When <m>P</m> has Cartesian coordinates <m>(x,y,z)</m>, the spherical coordinates are given by
+          The spherical coordinates of a point <m>P</m> in 3-space are <m>\rho</m> (rho), <m>\theta</m>, and <m>\phi</m> (phi), where <m>\rho</m> is the distance from <m>P</m> to the origin, <m>\theta</m> is the angle that the projection of <m>P</m> onto the <m>xy</m>-plane makes with the positive <m>x</m>-axis, and <m>\phi</m> is the angle between the positive <m>z</m> axis and the vector from the origin to <m>P</m>.  When <m>P</m> has Cartesian coordinates <m>(x,y,z)</m>, the spherical coordinates are given by
           <me>
             \rho^2  = x^2  + y^2 + z^2, \ \ \ \ \ \tan(\theta) = \frac{y}{x}, \ \ \ \ \ \cos(\phi) = \frac{z}{\rho}.
           </me>
@@ -571,9 +571,9 @@
 
       <li>
         <p>
-          The volume element <m>dV</m> in spherical coordinates is <m>dV = \rho^2 \sin(\phi) \, d\rho \, d\phi \, d\theta</m>. Thus, a triple integral <m>\iiint_S f(x,y,z) \, dA</m> can be evaluated as the iterated integral
+          The volume element <m>dV</m> in spherical coordinates is <m>dV = \rho^2 \sin(\phi) \, d\rho \, d\theta \, d\phi</m>. Thus, a triple integral <m>\iiint_S f(x,y,z) \, dA</m> can be evaluated as the iterated integral
           <me>
-            \iiint_S f(\rho\sin(\phi)\cos(\theta), \rho \sin(\phi) \sin(\theta), \rho \cos(\phi)) \, \rho^2 \sin(\phi) \, d\rho \, d\phi \, d\theta.
+            \iiint_S f(\rho\sin(\phi)\cos(\theta), \rho \sin(\phi) \sin(\theta), \rho \cos(\phi)) \, \rho^2 \sin(\phi) \, d\rho \, d\theta \, d\phi.
           </me>
         </p>
       </li>

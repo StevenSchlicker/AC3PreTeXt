@@ -410,7 +410,7 @@
 
         <sidebyside>
         <table xml:id="DI_11_1_TOV">
-        <caption>Table of values of <m>f(x,y) =  \sqrt{4-y^2}</m>.</caption>
+        <title>Table of values of <m>f(x,y) =  \sqrt{4-y^2}</m>.</title>
           <tabular halign="center" bottom="minor" top="minor">
             <row bottom="medium">
               <cell></cell>
@@ -757,7 +757,7 @@
           </p>
 
           <table xml:id="T_11_1_Ex_wind_chill" >
-            <caption>Wind chill as a function of wind speed and temperature.</caption>
+            <title>Wind chill as a function of wind speed and temperature.</title>
             <tabular halign="center" bottom="minor" top="minor">
               <row bottom="medium">
                 <cell><m>v \backslash T</m></cell>

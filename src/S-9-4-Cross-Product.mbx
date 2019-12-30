@@ -87,7 +87,7 @@
               Continuing in this way, complete the missing entries in <xref ref="T_9_4_cross_def">Table</xref>.
 
               <table xml:id="T_9_4_cross_def" >
-                <caption>Table of cross products involving <m>\vi</m>, <m>\vj</m>, and <m>\vk</m>.</caption>
+                <title>Table of cross products involving <m>\vi</m>, <m>\vj</m>, and <m>\vk</m>.</title>
                 <tabular>
                   <row>
                     <cell><m>\vi\times\vj = \vk</m></cell>

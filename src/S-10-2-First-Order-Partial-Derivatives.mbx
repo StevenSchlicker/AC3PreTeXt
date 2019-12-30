@@ -54,7 +54,7 @@
 
     <exploration xml:id="PA_10_2">
       <p>
-        Suppose we take out a <dollar />18,000 car loan at interest rate <m>r</m> and we agree to pay off the loan in <m>t</m> years. The monthly payment, in dollars, is
+        Suppose we take out an $18,000 car loan at interest rate <m>r</m> and we agree to pay off the loan in <m>t</m> years. The monthly payment, in dollars, is
         <me>
           M(r,t) =
             \frac{1500r}{1-\left(1+\frac{r}{12}\right)^{-12t}}.
@@ -484,7 +484,7 @@
 
 
       <table xml:id="T_10_2_wind_chill" >
-        <caption>Wind chill as a function of wind speed and temperature.</caption>
+        <title>Wind chill as a function of wind speed and temperature.</title>
         <tabular halign="center" bottom="minor" top="minor">
           <row bottom="medium">
             <cell><m>v \backslash T</m></cell>
@@ -861,7 +861,7 @@
             The Heat Index, <m>I</m>, (measured in <em>apparent degrees F</em>) is a function of the actual temperature <m>T</m> outside (in degrees F) and the relative humidity <m>H</m> (measured as a percentage). A portion of the table which gives values for this function, <m>I=I(T,H)</m>, is reproduced in <xref ref="T_10_2_wind_chill_partial">Table</xref>.
           </p>
           <table xml:id="T_10_2_wind_chill_partial" >
-          <caption>A portion of the wind chill data.</caption>
+          <title>A portion of the wind chill data.</title>
           <tabular halign="center" bottom="minor" top="minor">
             <row bottom="medium">
               <cell><em>T</em> <m>\downarrow \backslash</m> <em>H</em> <m>\rightarrow</m></cell>
@@ -921,7 +921,7 @@
 
             <li>
               <p>
-                On a certain day, at 1 p.m. the temperature is 92 degrees and the relative humidity is 85<percent />.  At 3 p.m., the temperature is 96 degrees and the relative humidity 75<percent />.  What is the average rate of change of the heat index over this time period, and what are the units on your answer?  Write a sentence to explain your thinking.
+                On a certain day, at 1 p.m. the temperature is 92 degrees and the relative humidity is 85%.  At 3 p.m., the temperature is 96 degrees and the relative humidity 75%.  What is the average rate of change of the heat index over this time period, and what are the units on your answer?  Write a sentence to explain your thinking.
               </p>
             </li>
           </ol>

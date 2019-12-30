@@ -79,7 +79,7 @@
               </me>
               Complete <xref ref="T-10-1-PA1_a">Table</xref>. 
               <table xml:id="T-10-1-PA1_a" >
-                <caption>Values of <m>f(x) = 3-x</m>.</caption>
+                <title>Values of <m>f(x) = 3-x</m>.</title>
                 <tabular halign="center" bottom="minor" top="minor">
                 <row bottom="medium">
                   <cell><m> x</m></cell>
@@ -127,7 +127,7 @@
               </me>
               Complete <xref ref="T-10-1-PA1_b">Table</xref> with values near <m>x = 0</m>, the point at which <m>g</m> is not defined.
               <table xml:id="T-10-1-PA1_b" >
-                <caption>Values of <m>g(x) = \frac{x}{|x|}</m>.</caption>
+                <title>Values of <m>g(x) = \frac{x}{|x|}</m>.</title>
               <tabular halign="center" bottom="minor" top="minor">
                 <row bottom="medium">
                   <cell><m> x</m></cell>
@@ -176,7 +176,7 @@
               </me>
               Complete <xref ref="T-10-1-PA1_c">Table</xref>.
               <table xml:id="T-10-1-PA1_c" >
-                <caption>Values of <m>f(x,y) = 3 - x - 2y</m>.</caption>
+                <title>Values of <m>f(x,y) = 3 - x - 2y</m>.</title>
               <tabular halign="right" bottom="minor" top="minor">
                 <row bottom="medium">
                   <cell><m>x\backslash y</m></cell>
@@ -260,7 +260,7 @@
               </me>
               which is not defined at <m>(0,0)</m>. Complete <xref ref="T-10-1-PA1_d">Table</xref>. Round to three decinal places.
               <table xml:id="T-10-1-PA1_d" >
-                <caption>Values of <m>g(x,y) = \frac{2xy}{x^2+y^2}</m>.</caption>
+                <title>Values of <m>g(x,y) = \frac{2xy}{x^2+y^2}</m>.</title>
               <tabular halign="center" bottom="minor" top="minor">
                 <row bottom="medium">
                   <cell halign="right"><m>x\backslash y</m></cell>
@@ -407,7 +407,7 @@
             Values of <m>f</m> (to three decimal places) at several points close to
               <m>(0,0)</m> are shown in <xref ref="T-10-1-data">Table</xref>.
               <table xml:id="T-10-1-data" >
-                <caption>Values of a function <m>f</m>.</caption>
+                <title>Values of a function <m>f</m>.</title>
             <tabular halign="right" bottom="minor" top="minor">
               <row bottom="medium">
                 <cell halign="center"><m>x\backslash y</m></cell>

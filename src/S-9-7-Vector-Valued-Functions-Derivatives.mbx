@@ -814,7 +814,10 @@
 
     
     <exercises>
-
+      <p>
+        The WeBWorK problems are written by many different authors. Some authors use parentheses when writing vectors, e.g., <m>(x(t),y(t),z(t))</m> instead of angle brackets <m>\langle x(t),y(t),z(t) \rangle</m>. Please keep this in mind when working WeBWorK exeercises. 
+      </p>
+      
       <exercise xml:id="ex-9-7-WW-velocity-acceleration">
       <!--<title>Vecocity and acceleration calculation</title>-->
          <webwork source="Library/maCalcDB/setVecFunction2Curvature/ur_vc_4_3.pg" />
@@ -976,7 +979,7 @@
 
               <li>
                 <p>
-                  Use your work in parts (a), (b), and (c) to deterring an equation for the tangent plane.  Then, use appropriate technology to draw the graph of <m>f</m> and the plane you determined on the same set of axes. What do you observe? (We will discuss tangent planes in more detail in Chapter 10.)
+                  Use your work in parts (a), (b), and (c) to determine an equation for the tangent plane.  Then, use appropriate technology to draw the graph of <m>f</m> and the plane you determined on the same set of axes. What do you observe? (We will discuss tangent planes in more detail in Chapter 10.)
                 </p>
               </li>
             </ol>

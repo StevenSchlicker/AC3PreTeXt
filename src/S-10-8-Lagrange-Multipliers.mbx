@@ -216,8 +216,8 @@
         Use the method of Lagrange
         multipliers to find the dimensions of the least
         expensive packing crate with a volume of 240 cubic feet when the
-        material for the top costs <dollar />2 per square foot, the bottom is <dollar />3
-        per square foot and the sides are <dollar />1.50 per square foot.
+        material for the top costs $2 per square foot, the bottom is $3
+        per square foot and the sides are $1.50 per square foot.
       </p>
       
     </activity>
@@ -325,7 +325,7 @@
             <me>
               f(x, y) = 50 x^{0.4}y^{0.6},
             </me>
-            where <m>x</m> is the dollar amount spent on labor and <m>y</m> the dollar amount spent on equipment. Use the method of Lagrange multipliers to determine how much should be spent on labor and how much on equipment to maximize productivity if we have a total of <dollar />1.5 million dollars to invest in labor and equipment.
+            where <m>x</m> is the dollar amount spent on labor and <m>y</m> the dollar amount spent on equipment. Use the method of Lagrange multipliers to determine how much should be spent on labor and how much on equipment to maximize productivity if we have a total of 1.5 million dollars to invest in labor and equipment.
           </p>
         </statement>
         

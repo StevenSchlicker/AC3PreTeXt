@@ -414,7 +414,7 @@
 
     <p>
       That is, we may write an equation of a plane as <m>ax+by+cz = d</m> where
-      where <m>d = \vn\cdot\langle x_0,y_0,z_0\rangle</m>.
+      <m>d = \vn\cdot\langle x_0,y_0,z_0\rangle</m>.
     </p>
 
     <p>

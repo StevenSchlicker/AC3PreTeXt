@@ -306,7 +306,7 @@
         <ol label="a.">
           <li>
             <p>
-              The graphs of these three functions are shown in <xref ref="F_10_7_max_min_saddle">Figure</xref>, with <m>z=4-x^2-y^2</m> at left, <m>z=x^2+y^2</m> in the middle, and <m>z=x^2-y^2</m> at right. Use the graphs to decide if a function has a local maximimum, local minimum, saddle point, or none of the above at the origin. 
+              The graphs of these three functions are shown in <xref ref="F_10_7_max_min_saddle">Figure</xref>, with <m>z=4-x^2-y^2</m> at left, <m>z=x^2+y^2</m> in the middle, and <m>z=x^2-y^2</m> at right. Use the graphs to decide if a function has a local maximum, local minimum, saddle point, or none of the above at the origin. 
             </p>
           </li>
 
@@ -498,7 +498,7 @@
       closed interval <m>[a, b]</m> always has both an absolute maximum and minimum on
       that interval, and that these absolute extremes must occur at either an endpoint or at a critical point. Thus, to find the absolute maximum and minimum, we determine the
       critical points in the interval and then evaluate the function at these
-      critical point s and at the endpoints of the interval. A similar approach works for functions of two variables.
+      critical points and at the endpoints of the interval. A similar approach works for functions of two variables.
     </p>
 
     <p>
@@ -571,7 +571,7 @@
         </p>
 
         <p>
-          To find the hottest and coldest point on the boundary, we look for the critical points of this single-variable function on the interval <m>0\leq t\leq 2\pi</m>.
+          To find the hottest and coldest points on the boundary, we look for the critical points of this single-variable function on the interval <m>0\leq t\leq 2\pi</m>.
           We have
           <md>
             <mrow>
@@ -739,7 +739,7 @@
 
         <li>
           <p>
-            Find the absolute maximum and absolute minimum value of <m>f</m> on <m>R</m>.
+            Find the absolute maximum and absolute minimum values of <m>f</m> on <m>R</m>.
           </p>
         </li>
       </ol>
@@ -951,7 +951,7 @@
         <statement>
           <p>
             If a continuous function <m>f</m> of a single variable has exactly one critical number with a relative maximum at that critical point, then the value of <m>f</m> at that critical point is an absolute maximum. In this exercise we see that the same is not always true for functions of two variables. Let
-            <m>f(x,y) = 3xe^y-x^3-e^{3y}</m> (from <q>`The Only Critical Point in Town</q> Test' by Ira Rosenholz and Lowell Smylie in the <em>Mathematics Magazine</em>, VOL 58 NO 3 May 1985.). Show that <m>f</m> has exactly one critical point, has a relative maximum value at that critical point, but that <m>f</m> has no absolute maximum value. Use appropriate technology to draw the surface defined by <m>f</m> to see graphically how this happens.
+            <m>f(x,y) = 3xe^y-x^3-e^{3y}</m> (from <q>``The Only Critical Point in Town"</q> Test by Ira Rosenholz and Lowell Smylie in the <em>Mathematics Magazine</em>, VOL 58 NO 3 May 1985.). Show that <m>f</m> has exactly one critical point, has a relative maximum value at that critical point, but that <m>f</m> has no absolute maximum value. Use appropriate technology to draw the surface defined by <m>f</m> to see graphically how this happens.
           </p>
         </statement>
         
@@ -959,7 +959,7 @@
       <exercise>
         <statement>
           <p>
-            A manufacturer wants to procure rectangular boxes to ship its product. The boxes must contain 20 cubic feet of space. To be durable enough to ensure the safety of the product, the material for the sides of the boxes will cost <dollar />0.10 per square foot, while the material for the top and bottom will cost <dollar />0.25 per square foot. In this activity we will help the manufacturer determine the box of minimal cost.
+            A manufacturer wants to procure rectangular boxes to ship its product. The boxes must contain 20 cubic feet of space. To be durable enough to ensure the safety of the product, the material for the sides of the boxes will cost $0.10 per square foot, while the material for the top and bottom will cost $0.25 per square foot. In this activity we will help the manufacturer determine the box of minimal cost.
             <ol label="a.">
               <li>
                 <p>
@@ -1086,7 +1086,7 @@
 
               <li>
                 <p>
-                  Find the maximum value of <m>V</m> on the boundary of the region <m>R</m>, and the determine the dimensions of a bag with maximum volume on the entire region <m>R</m>. (Note that most carry-on bags sold today measure <m>22</m> by <m>14</m> by <m>9</m> inches with a volume of <m>2772</m> cubic inches, so that the bags will fit into the overhead bins.)
+                  Find the maximum value of <m>V</m> on the boundary of the region <m>R</m>, and then determine the dimensions of a bag with maximum volume on the entire region <m>R</m>. (Note that most carry-on bags sold today measure <m>22</m> by <m>14</m> by <m>9</m> inches with a volume of <m>2772</m> cubic inches, so that the bags will fit into the overhead bins.)
                 </p>
               </li>
             </ol>
@@ -1108,7 +1108,7 @@
           </stack>
 
           <table xml:id="T-10-7-chirps" >
-            <caption>Crickets chirping.</caption>
+            <title>Crickets chirping.</title>
             <tabular halign="center" bottom="minor" top="minor">
             <row bottom="medium">
               <cell><m>x</m></cell>

@@ -391,7 +391,7 @@
 
           <li>
             <p>
-              How do your responses change to all three of the preceding question if you instead consider the function <m>g</m> defined by <m>g(x,y) = x^2 - y^2</m>? (Hint for generating one of the parameterizations: <m>\sec^2(t)-\tan^2(t) = 1</m>.)
+              How do your responses change to all three of the preceding questions if you instead consider the function <m>g</m> defined by <m>g(x,y) = x^2 - y^2</m>? (Hint for generating one of the parameterizations: <m>\sec^2(t)-\tan^2(t) = 1</m>.)
             </p>
           </li>
         </ol>

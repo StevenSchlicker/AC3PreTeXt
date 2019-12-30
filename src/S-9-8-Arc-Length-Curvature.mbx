@@ -299,7 +299,7 @@
       </men>
       and so
       <me>
-        L(t) = \int_a^t \left| \frac{d}{dt}\vr(w)\right| \,dw.
+        L(t) = \int_a^t \left| \frac{d}{dw}\vr(w)\right| \,dw.
       </me>
     </p>
 
@@ -694,7 +694,10 @@
 
 
     <exercises>
-
+      <p>
+          The WeBWorK problems are written by many different authors. Some authors use parentheses when writing vectors, e.g., <m>(x(t),y(t),z(t))</m> instead of angle brackets <m>\langle x(t),y(t),z(t) \rangle</m>. Please keep this in mind when working WeBWorK exeercises. 
+      </p>
+      
       <exercise xml:id="ex-9-8-WW-arc-length-1">
       <!--<title>Length of a parameterized segment</title>-->
          <webwork source="Library/Michigan/Chap17Sec2/Q13.pg" />
@@ -759,13 +762,13 @@
             <ol label="a.">
               <li>
                 <p>
-                  Find the unit tangent vector, <m>\vT(t)</m>, to the spacecurve traced by <m>\vr(t)</m> at time <m>t</m>.  Write one sentence that explains what <m>\vT(t)</m> tells us about the particle's motion.
+                  Find the unit tangent vector, <m>\vT(t)</m>, to the space curve traced by <m>\vr(t)</m> at time <m>t</m>.  Write one sentence that explains what <m>\vT(t)</m> tells us about the particle's motion.
                 </p>
               </li>
 
               <li>
                 <p>
-                  Determine the speed of the particle moving along the spacecurve with the given parameterization.
+                  Determine the speed of the particle moving along the space curve with the given parameterization.
                 </p>
               </li>
 
