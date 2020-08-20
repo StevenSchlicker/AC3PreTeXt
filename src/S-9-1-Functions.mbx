@@ -931,7 +931,7 @@
       
      
       <exercise xml:id="ex-9-1-WW-evaluate">
-        <title>Evaluate a function</title> 
+        <!--<title>Evaluate a function</title>-->
           <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/14_Differentiation_in_Several_Variables/14.1_Functions_of_Two_or_More_Variables/14.1.1.pg" />
       </exercise> 
 
