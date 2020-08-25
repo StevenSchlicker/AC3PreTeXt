@@ -184,7 +184,7 @@
   </introduction>
 
   <subsection>
-    <title>The tangent plane</title>
+    <title>The Tangent Plane</title>
     <p>
       Before stating the formula for the equation of the tangent plane at a point for a general function <m>f=f(x,y)</m>, we need to discuss a technical
       condition. As we have noted, when we look at the graph of a single-variable
@@ -201,7 +201,7 @@
     </p>
 
     <p>
-      It would take us too far afield to provide a rigorous dicussion of differentiability of functions of more than one variable (see <xref ref="Ez_10_4_4">Exercise</xref>) for a little more detail, so we will be content to define stronger, but more easily verified, conditions that ensure local linearity. 
+      It would take us too far afield to provide a rigorous dicussion of differentiability of functions of more than one variable (see <xref ref="Ez_10_4_4">Exercise</xref> for a little more detail), so we will be content to define stronger, but more easily verified, conditions that ensure local linearity. 
     </p>
 
     <assemblage xml:id="Differentiablity">

@@ -115,7 +115,7 @@
   </introduction>
 
   <subsection>
-    <title>Second-order Partial Derivatives</title>
+    <title>Second-Order Partial Derivatives</title>
     <p>
       A function <m>f</m> of two independent variables <m>x</m> and <m>y</m> has two first order partial derivatives, <m>f_x</m> and <m>f_y</m>. As we saw in Preview <xref ref="PA_10_3">Activity</xref>, each of these first-order partial derivatives has two partial derivatives, giving a total of four <em>second-order</em> partial derivatives<idx><h>partial derivatives</h><h>second-order</h></idx>:
       <ul>
@@ -244,7 +244,7 @@
   </subsection>
 
   <subsection>
-    <title>Interpreting the second-order Partial Derivatives</title>
+    <title>Interpreting the Second-Order Partial Derivatives</title>
     <p>
       Recall from single variable calculus that the second derivative
       measures the instantaneous rate of change of the derivative. This observation is
