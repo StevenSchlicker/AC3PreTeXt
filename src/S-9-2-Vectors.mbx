@@ -47,7 +47,7 @@
 
     <introduction>
     <p>
-      Quantities like length, speed, area, and mass are all measured by numbers (called <em>scalars</em>). Other quantities, like velocity, force, and displacement, have two attributes: magnitude and direction. These quantities are represented by <em>vectors</em> and are the study of this section. For example, we will use vectors to calculate work done by a constant force, calculate torque, determine direction vectors for lines and normal vectors for planes, define curvature, and determine the direction of greatest increase on a surface. For most of these applications, we will interested in using vectors to measure direction and/or speed.  Vectors will be a major tool for us in determining the behavior of functions of several variables. 
+      Quantities like length, speed, area, and mass are all measured by numbers (called <em>scalars</em>). Other quantities, like velocity, force, and displacement, have two attributes: magnitude and direction. These quantities are represented by <em>vectors</em> and are the study of this section. For example, we will use vectors to calculate work done by a constant force, calculate torque, determine direction vectors for lines and normal vectors for planes, define curvature, and determine the direction of greatest increase on a surface. For most of these applications, we will be interested in using vectors to measure direction and/or speed.  Vectors will be a major tool for us in determining the behavior of functions of several variables. 
     </p>
 
     <p>
