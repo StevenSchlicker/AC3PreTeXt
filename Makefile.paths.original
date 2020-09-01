@@ -28,7 +28,7 @@
 
 # Project files distribution root
 # Example:
-#PRJ = /Users/alex.jordan/active-calculus-vector
+#PRJ = /Users/alex.jordan/AC3PreTeXt
 PRJ =
 
 # PreTeXt distribution root
@@ -38,7 +38,7 @@ PTX =
 
 # Directory for HTML version
 # Example:
-#HTMLOUT = /Users/alex.jordan/active-calculus-vector/output/html
+#HTMLOUT = /Users/alex.jordan/AC3PreTeXt/output/html
 HTMLOUT =
 
 # Directory for Jing-Trang validator
