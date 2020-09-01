@@ -14,7 +14,7 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 <docinfo>
 <macros>
 \newcommand{\R}{\mathbb{R}}
@@ -128,4 +128,4 @@
 
 </backmatter>
 </book>
-</mathbook>
+</pretext>
