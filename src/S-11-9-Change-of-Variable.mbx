@@ -378,7 +378,7 @@
     <title>Change of Variables in a Triple Integral</title>
 
     <p>
-     The argument for the change of variable formula for triple integrals is complicated, and we will not go into the details. The general process, though, is the same as the two-dimensional case. Given a solid <m>S'</m> in the <m>xyz</m>-coordinate system in <m>\R^3</m>, a change of variables transformation <m>x=x(s,t,u)</m>, <m>y=y(s,t,u)</m>, and <m>z = z(s,t,u)</m> transforms <m>S'</m> into a region <m>S</m> in <m>stu</m>-coordinates. Any function <m>f = f(x,y,z)</m> defined on <m>S'</m> can be considered as a function <m>f = f(x(s,t,u), y(s,y,u), z(s,t,u))</m> in <m>stu</m>-coordinates defined on <m>S</m>. The volume element <m>dV</m> in <m>xyz</m>-coordinates cooresponds to a scaled volume element in <m>stu</m>-coordinates, where the scale factor is given by the absolute value of the Jacobian, <m>\frac{\partial(x,y,z)}{\partial(s,t,u)}</m>, which is the determinant of the <m>3 \times 3</m> matrix
+     The argument for the change of variable formula for triple integrals is complicated, and we will not go into the details. The general process, though, is the same as the two-dimensional case. Given a solid <m>S'</m> in the <m>xyz</m>-coordinate system in <m>\R^3</m>, a change of variables transformation <m>x=x(s,t,u)</m>, <m>y=y(s,t,u)</m>, and <m>z = z(s,t,u)</m> transforms <m>S'</m> into a region <m>S</m> in <m>stu</m>-coordinates. Any function <m>f = f(x,y,z)</m> defined on <m>S'</m> can be considered as a function <m>f = f(x(s,t,u), y(s,y,u), z(s,t,u))</m> in <m>stu</m>-coordinates defined on <m>S</m>. The volume element <m>dV</m> in <m>xyz</m>-coordinates corresponds to a scaled volume element in <m>stu</m>-coordinates, where the scale factor is given by the absolute value of the Jacobian, <m>\frac{\partial(x,y,z)}{\partial(s,t,u)}</m>, which is the determinant of the <m>3 \times 3</m> matrix
         <me>
           \left[ \begin{array}{ccc} \frac{\partial x}{\partial s} \amp  \frac{\partial x}{\partial t} \amp  \frac{\partial x}{\partial u} \\ \frac{\partial y}{\partial s} \amp  \frac{\partial y}{\partial t} \amp  \frac{\partial y}{\partial u} \\ \frac{\partial z}{\partial s} \amp  \frac{\partial z}{\partial t} \amp  \frac{\partial z}{\partial u}
         \end{array}  \right]
@@ -414,7 +414,7 @@
       </p>
 
       <p>
-        What do you observe about your result? How is this connected to our earlier work with triple integrals in cylindrial coordinates?
+        What do you observe about your result? How is this connected to our earlier work with triple integrals in cylindrical coordinates?
       </p>
     
     </activity>
@@ -425,7 +425,7 @@
         <ol label="a.">
           <li>
             <p>
-              The transformation turns the solid <m>S'</m> in <m>xyz</m>-coordinates into a box <m>S</m> in  <m>stu</m>-coordinates. Apply the transformation to the boundries of the solid <m>S'</m> to find <m>stu</m>-coordinatte descriptions of the box <m>S</m>.
+              The transformation turns the solid <m>S'</m> in <m>xyz</m>-coordinates into a box <m>S</m> in  <m>stu</m>-coordinates. Apply the transformation to the boundaries of the solid <m>S'</m> to find <m>stu</m>-coordinate descriptions of the box <m>S</m>.
             </p>
           </li>
           <li>
