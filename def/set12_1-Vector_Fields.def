@@ -1,0 +1,94 @@
+assignmentType      = default
+openDate          = 10/27/2020 at 12:59am CDT
+reducedScoringDate = 11/02/2020 at 12:59pm CST
+dueDate           = 11/23/2020 at 11:59pm CST
+answerDate        = 11/23/2020 at 11:59pm CST
+enableReducedScoring = Y
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+description       = 
+restrictProbProgression = 0
+emailInstructor   = 0
+
+problemListV2 
+problem_start
+problem_id = 1
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/16_Line_and_Surface_Integrals/16.1_Vector_Fields/16.1.15.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 2
+source_file = Library/FortLewis/Calc3/17-3-Vector-fields/HGM5-17-3-27-Vector-fields.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 3
+source_file = Library/ASU-topics/setCalculus/stef/stef16_1p2/stef16_1p2.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 4
+source_file = Library/Michigan/Chap18Sec4/Q02.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 5
+source_file = Library/FortLewis/Calc3/17-3-Vector-fields/HGM4-17-3-00-Vector-fields.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 6
+source_file = Library/Michigan/Chap18Sec4/Q07.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 7
+source_file = Library/FortLewis/Calc3/17-3-Vector-fields/HGM4-17-3-16a-Vector-fields.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 8
+source_file = Library/Michigan/Chap17Sec4/Q21.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+

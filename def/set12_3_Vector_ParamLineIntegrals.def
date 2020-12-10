@@ -1,0 +1,94 @@
+assignmentType      = default
+openDate          = 10/30/2020 at 12:59am CDT
+reducedScoringDate = 11/06/2020 at 12:59am CST
+dueDate           = 11/23/2020 at 11:59pm CST
+answerDate        = 11/23/2020 at 11:59pm CST
+enableReducedScoring = Y
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+description       = 
+restrictProbProgression = 0
+emailInstructor   = 0
+
+problemListV2 
+problem_start
+problem_id = 1
+source_file = Library/ASU-topics/setCalculus/stef16_2p1.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 2
+source_file = Library/UBC/calculusStewart/lineIntegrals21.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 3
+source_file = Library/Michigan/Chap18Sec1/Q09.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 4
+source_file = Library/Michigan/Chap18Sec3/Q43.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 5
+source_file = Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM5-18-2-16-Line-integrals-parametrized.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 6
+source_file = Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-00-Line-integrals-parametrized.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 7
+source_file = Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-08a-Line-integrals-parametrized.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+problem_start
+problem_id = 8
+source_file = Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-11a-Line-integrals-parametrized.pg
+value = 1
+max_attempts = -1
+showMeAnother = -1
+prPeriod = -1
+counts_parent_grade = 0
+att_to_open_children = 0 
+problem_end
+
