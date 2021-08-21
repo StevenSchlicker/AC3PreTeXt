@@ -230,7 +230,7 @@
     </p>
 
     <p>
-      Finally, one important note about the form of the equation for the tangent plane, <m>z = f(x_0,y_0) + f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)</m>. Say, for example, that we have the particular tangent plane <m>z = 7 - 2(x-3) + 4(y+1)</m>. Observe that we can immediately read from this form that <m>f_x(3,-1) = -2</m> and <m>f_y(3,-1) = 4</m>; furthermore, <m>f_x(3,-1)=-2</m> is the slope of the trace to both <m>f</m> and the tangent plane in the <m>x</m>-direction at <m>(-3,1)</m>. In the same way, <m>f_y(3,-1) = 4</m> is the slope of the trace of both <m>f</m> and the tangent plane in the <m>y</m>-direction at <m>(3,-1)</m>.
+      Finally, one important note about the form of the equation for the tangent plane, <m>z = f(x_0,y_0) + f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)</m>. Say, for example, that we have the particular tangent plane <m>z = 7 - 2(x-3) + 4(y+1)</m>. Observe that we can immediately read from this form that <m>f_x(3,-1) = -2</m> and <m>f_y(3,-1) = 4</m>; furthermore, <m>f_x(3,-1)=-2</m> is the slope of the trace to both <m>f</m> and the tangent plane in the <m>x</m>-direction at <m>(3,-1)</m>. In the same way, <m>f_y(3,-1) = 4</m> is the slope of the trace of both <m>f</m> and the tangent plane in the <m>y</m>-direction at <m>(3,-1)</m>.
     </p>
 
     <activity xml:id="A_10_4_1">

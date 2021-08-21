@@ -140,7 +140,7 @@
 
             <li>
               <p>
-                An <em>absolute minimum point</em> is a point such that <m>f(x,y) \geq f(x_0,y_0)</m> for all points <m>(x,y)</m> in the domain of <m>f</m>. The value of <m>f</m> at an absolute minimum point is the <em>maximum value</em> of <m>f</m>.
+                An <em>absolute minimum point</em> is a point such that <m>f(x,y) \geq f(x_0,y_0)</m> for all points <m>(x,y)</m> in the domain of <m>f</m>. The value of <m>f</m> at an absolute minimum point is the <em>minimum value</em> of <m>f</m>.
               </p>
             </li>
           </ul>
@@ -199,7 +199,7 @@
 
     <activity xml:id="A_10_7_3">
       <p>
-        Find the critical points of each of the following functions. Then, using appropriate technology, plot the graphs of the surfaces near each critical value and compare the graph to your work.
+        Find the critical points of each of the following functions. Then, using appropriate technology, plot the graphs of the surfaces near each critical point and compare the graph to your work.
         <ol label="a.">
           <li>
             <p>

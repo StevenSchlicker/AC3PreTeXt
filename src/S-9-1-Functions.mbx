@@ -597,12 +597,9 @@
     <p>
       When we study functions of several variables we are often interested
       in how each individual variable affects the function in and of
-      itself. In <xref ref="PA-9-1">Preview Activity</xref>, we saw that the amount of money in an account depends on the interest rate and the
-      duration of the investment. However, if we fix the interest rate, the
-      amount of money in the account depends only on the duration of the investment, and if we set the duration of the investment constant, then the amount of money in the account depends only on the interest rate. This
-      idea of keeping one variable constant while we allow the other to
-      change will be an important tool for us when studying functions of
-      several variables.
+      itself. In <xref ref="PA-9-1">Preview Activity</xref>, we saw that the amount of money in an account depends on the amount initially invested and the
+      duration of the investment. However, if we fix the initial investment, the
+      amount of money in the account depends only on the duration of the investment, and if we set the duration of the investment constant, then the amount of money in the account depends only on the initial investment. This idea of keeping one variable constant while we allow the other to change will be an important tool for us when studying functions of several variables.
     </p>
 
     <p>

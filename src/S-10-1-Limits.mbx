@@ -322,7 +322,7 @@
 
           <li>
             <p>
-              Explain how your results are reflected in <xref ref="F_10_1_activity_5">Figure</xref>. Compare this limit to the limit in part (b). How are the results similar and how are they different?
+              Explain how your results are reflected in <xref ref="F_10_1_activity_5">Figure</xref>. Compare this limit to the limit in part (c). How are the results similar and how are they different?
 
               <figure xml:id="F_10_1_activity_5" >
                 <caption>Left: The graph of <m>g(x,y) = \frac{2xy}{x^2+y^2}</m>. Right: A contour plot.</caption>
